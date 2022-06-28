@@ -1,0 +1,182 @@
+/*Here you can find the colors and lyrics size I will use in my blog*/
+:root{
+    --orange:#eca647;
+    --green:#7ae952;
+    --blue:#3B44F6;
+    --purple:#A149FA;
+    --soft-black:#251f21;
+    --sl:1.8rem;
+    --sm:1.2rem;
+    --ss:1rem;
+}
+/*Reseting browser styles*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*I established this to use "rem" which is responsive*/
+html{
+    font-size: 62.5%;
+}
+.home-body{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+}
+.home-header{
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    height: 80px;
+
+}
+
+.home-header .home-header__network{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: linear-gradient(-5deg, #eca647, #251f21);
+    padding-left: 8px;
+    
+}
+
+.home-header .home-header__network a{
+    text-decoration: none;
+    color: black;
+    margin-right: 8px;
+    
+}
+
+.home-header__network .facebook{
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-image: url('/Assets/Icons/icons8-facebook.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.home-header__network .instagram{
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-image: url('/Assets/Icons/icons8-instagram.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home-header__network .twitter{
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-image: url('/Assets/Icons/icons8-twitter.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+    
+}
+
+.home-header__network .github{
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-image: url('/Assets/Icons/icons8-github.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home-header__network .linkedin{
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-image: url('/Assets/Icons/icons8-linkedin-circled.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home-header__about{
+    display: grid;
+    grid-template-columns: 1fr 4fr 2fr;
+    justify-items: center;
+    align-items: center;
+    padding-top: 10px;
+    background-color: var(--soft-black);
+    
+   
+}
+
+.home-header__about a{
+    grid-column: 3 / 4;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+    letter-spacing: 0.2rem;
+}
+
+.home-header__about a:hover{
+    color: var(--orange);
+}
+
+.home-header__about img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    grid-column: 2 / 3;
+}
+
+.home-main{
+    padding-top: 40px;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-items: center;
+    background-image: url('/Assets/img/background-home.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.home-main .home-main--action{
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-rows: repeat(2,150px);
+    align-items: center;
+    justify-items: center;
+   
+}
+
+.home-main--action h2{
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 0.4rem;
+    color: white;
+
+}
+
+.home-main--action  a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.3rem;
+    font-size: 2rem;
+}
+
+.home-main--action  a:hover{
+    color: var(--orange);
+}
