@@ -1,0 +1,38 @@
+.news-main-container .news-article-container{
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+}
+
+.intro-container .intro-brief h3{
+    font-size: 1.3rem;
+}
+.intro-container .intro-brief__why h3{
+    font-size: 1.3rem;
+}
+.intro-container .intro-brief__why p{
+    font-size: 1.2rem;
+}
+.intro-container .intro-brief__why a{
+    width: 85px;
+    font-size: 1.1rem;
+    padding: 4px 11px;
+    font-weight: 400;
+}
+
+.news-main-container .news-title{
+    font-size: 1.3rem;
+}
+
+.news-article-container .news-article h3{
+    font-size: 1.2rem;
+}
+
+.news-article-container .news-article a{
+    width: 85px;
+    font-size: 1.1rem;
+    padding: 4px 11px;
+    font-weight: bold;
+}
+
+.intro-container .intro-brief__why {
+    margin-top: 0px;
+}
