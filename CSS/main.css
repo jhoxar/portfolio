@@ -144,7 +144,8 @@ html{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     justify-items: center;
-    background-image: url('/Assets/img/background-home.jpg');
+    /*background-image: url('/Assets/img/background-home.jpg');*/
+    background-color: var(--soft-black);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
